@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Test Search" time="36" tests="2" failures="0" errors="0">
+    <testsuite name="Test Search" tests="2" failures="0" errors="0" time="36" timestamp="2019-08-15 11:27:37" hostname="OMST00169 - OMST00169-NB" id="Test Suites/Test Search">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Train\\Test G-able career\\Reports\\20190815_112723\\Test Search\\20190815_112724"/>
+            <property name="logFiles" value="D:\\Train\\Test G-able career\\Reports\\20190815_112723\\Test Search\\20190815_112724\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="OMST00169 - OMST00169-NB"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.1.2"/>
+            <property name="browser" value="Firefox 68.0"/>
+            <property name="hostAddress" value="192.168.99.1"/>
+            <property name="sessionId" value="8fea2560-2bf6-46e6-93ee-993bd7961c5c"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Test Search G-able C" classname="Test Cases/Test Search G-able C" status="PASSED">
+            <system-out>2019-08-15 11:27:38 - [TEST_CASE][PASSED] - Test Cases/Test Search G-able C: Test Cases/Test Search G-able C&#xD;
+&#xD;
+2019-08-15 11:27:38 - [TEST_STEP][PASSED] - dynamicId = "g-able career": null&#xD;
+&#xD;
+2019-08-15 11:27:38 - [TEST_STEP][PASSED] - xpath = String.format("//form[@id="tsf"]//span[text()="%s"]", dynamicId): null&#xD;
+&#xD;
+2019-08-15 11:27:38 - [TEST_STEP][PASSED] - to = new com.kms.katalon.core.testobject.TestObject(objectName): null&#xD;
+&#xD;
+2019-08-15 11:27:38 - [TEST_STEP][PASSED] - to.addProperty("xpath", EQUALS, xpath): null&#xD;
+&#xD;
+2019-08-15 11:27:38 - [TEST_STEP][PASSED] - openBrowser("https://www.google.co.th"): Browser is opened with url: 'https://www.google.co.th'&#xD;
+&#xD;
+2019-08-15 11:27:38 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-08-15 11:27:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-15 11:27:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.co.th'&#xD;
+&#xD;
+2019-08-15 11:27:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search G-able C/Page_Google/input__q"), "g-able c"): Text 'g-able c' is set on object 'Object Repository/Search G-able C/Page_Google/input__q'&#xD;
+&#xD;
+2019-08-15 11:27:45 - [MESSAGE][PASSED] - Text 'g-able c' is set on object 'Object Repository/Search G-able C/Page_Google/input__q'&#xD;
+&#xD;
+2019-08-15 11:27:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(to, 10)): Object: 'objectName' is clicked on&#xD;
+&#xD;
+2019-08-15 11:27:46 - [MESSAGE][PASSED] - Object 'objectName' is present&#xD;
+&#xD;
+2019-08-15 11:27:46 - [TEST_STEP][PASSED] - click(to): Object: 'objectName' is clicked on&#xD;
+&#xD;
+2019-08-15 11:27:48 - [MESSAGE][PASSED] - Object: 'objectName' is clicked on&#xD;
+&#xD;
+2019-08-15 11:27:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search G-able C/Page_g-able career -  Google/h3_Careers  G-ABLE")): Object: 'Object Repository/Search G-able C/Page_g-able career -  Google/h3_Careers  G-ABLE' is clicked on&#xD;
+&#xD;
+2019-08-15 11:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Search G-able C/Page_g-able career -  Google/h3_Careers  G-ABLE' is clicked on&#xD;
+&#xD;
+2019-08-15 11:27:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-08-15 11:27:57 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Test Search G-able career" classname="Test Cases/Test Search G-able career" status="PASSED">
+            <system-out>2019-08-15 11:27:57 - [TEST_CASE][PASSED] - Test Cases/Test Search G-able career: Test Cases/Test Search G-able career&#xD;
+&#xD;
+2019-08-15 11:27:57 - [TEST_STEP][PASSED] - openBrowser("https://www.google.co.th/?gws_rd=ssl"): Browser is opened with url: 'https://www.google.co.th/?gws_rd=ssl'&#xD;
+&#xD;
+2019-08-15 11:27:57 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-08-15 11:28:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.co.th/?gws_rd=ssl'&#xD;
+&#xD;
+2019-08-15 11:28:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search G-able career/Page_Google/input__q"), "g-able career"): Text 'g-able career' is set on object 'Object Repository/Search G-able career/Page_Google/input__q'&#xD;
+&#xD;
+2019-08-15 11:28:02 - [MESSAGE][PASSED] - Text 'g-able career' is set on object 'Object Repository/Search G-able career/Page_Google/input__q'&#xD;
+&#xD;
+2019-08-15 11:28:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search G-able career/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search G-able career/Page_Google/input__q'&#xD;
+&#xD;
+2019-08-15 11:28:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search G-able career/Page_Google/input__q'&#xD;
+&#xD;
+2019-08-15 11:28:02 - [TEST_STEP][PASSED] - click(findTestObject("Search G-able career/Page_g-able career -  Google/Careers G-ABLE")): Object: 'Object Repository/Search G-able career/Page_g-able career -  Google/Careers G-ABLE' is clicked on&#xD;
+&#xD;
+2019-08-15 11:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Search G-able career/Page_g-able career -  Google/Careers G-ABLE' is clicked on&#xD;
+&#xD;
+2019-08-15 11:28:10 - [TEST_STEP][PASSED] - verifyTextPresent("Jobs", true): Text 'Jobs' is present on page  using regular expression&#xD;
+&#xD;
+2019-08-15 11:28:12 - [MESSAGE][PASSED] - Text 'Jobs' is present on page  using regular expression&#xD;
+&#xD;
+2019-08-15 11:28:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-15 11:28:13 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-15 11:28:13 - [TEST_STEP][PASSED] - click(findTestObject("Search G-able career/Page_G-Able Career (Homepage) - G-Able Careers/View Jobs")): Object: 'Object Repository/Search G-able career/Page_G-Able Career (Homepage) - G-Able Careers/View Jobs' is clicked on&#xD;
+&#xD;
+2019-08-15 11:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Search G-able career/Page_G-Able Career (Homepage) - G-Able Careers/View Jobs' is clicked on&#xD;
+&#xD;
+2019-08-15 11:28:13 - [TEST_STEP][PASSED] - closeWindowIndex(0): Window with index 0 is closed&#xD;
+&#xD;
+2019-08-15 11:28:14 - [MESSAGE][PASSED] - Window with index 0 is closed&#xD;
+&#xD;
+2019-08-15 11:28:14 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()&#xD;
+&#xD;
+2019-08-15 11:28:14 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-15 11:27:37 - [TEST_SUITE][INCOMPLETE] - Test Search: null</system-out>
+        <system-err>2019-08-15 11:27:37 - [TEST_SUITE][INCOMPLETE] - Test Search: null</system-err>
+    </testsuite>
+</testsuites>

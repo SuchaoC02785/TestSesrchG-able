@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Search,Firefox 68.0,,,2019-08-15 11:27:37,2019-08-15 11:28:14,36.162s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Search G-able C,Firefox 68.0,,,2019-08-15 11:27:38,2019-08-15 11:27:57,19.127s,PASSED
+"dynamicId = ""g-able career""",Firefox 68.0,,,2019-08-15 11:27:38,2019-08-15 11:27:38,0.001s,PASSED
+"xpath = String.format(""//form[@id=""tsf""]//span[text()=""%s""]"", dynamicId)",Firefox 68.0,,,2019-08-15 11:27:38,2019-08-15 11:27:38,0.001s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(objectName),Firefox 68.0,,,2019-08-15 11:27:38,2019-08-15 11:27:38,0.005s,PASSED
+"to.addProperty(""xpath"", EQUALS, xpath)",Firefox 68.0,,,2019-08-15 11:27:38,2019-08-15 11:27:38,0.004s,PASSED
+"openBrowser(""https://www.google.co.th"")",Firefox 68.0,,,2019-08-15 11:27:38,2019-08-15 11:27:45,7.199s,PASSED
+"setText(findTestObject(""Object Repository/Search G-able C/Page_Google/input__q""), ""g-able c"")",Firefox 68.0,,,2019-08-15 11:27:45,2019-08-15 11:27:45,0.286s,PASSED
+"if (verifyElementPresent(to, 10))",Firefox 68.0,,,2019-08-15 11:27:45,2019-08-15 11:27:48,2.541s,PASSED
+"click(findTestObject(""Object Repository/Search G-able C/Page_g-able career -  Google/h3_Careers  G-ABLE""))",Firefox 68.0,,,2019-08-15 11:27:48,2019-08-15 11:27:55,7.255s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-08-15 11:27:55,2019-08-15 11:27:57,1.682s,PASSED
+,,,,,,,
+Test Cases/Test Search G-able career,Firefox 68.0,,,2019-08-15 11:27:57,2019-08-15 11:28:14,16.796s,PASSED
+"openBrowser(""https://www.google.co.th/?gws_rd=ssl"")",Firefox 68.0,,,2019-08-15 11:27:57,2019-08-15 11:28:02,4.746s,PASSED
+"setText(findTestObject(""Object Repository/Search G-able career/Page_Google/input__q""), ""g-able career"")",Firefox 68.0,,,2019-08-15 11:28:02,2019-08-15 11:28:02,0.201s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search G-able career/Page_Google/input__q""), Keys.chord(ENTER))",Firefox 68.0,,,2019-08-15 11:28:02,2019-08-15 11:28:02,0.128s,PASSED
+"click(findTestObject(""Search G-able career/Page_g-able career -  Google/Careers G-ABLE""))",Firefox 68.0,,,2019-08-15 11:28:02,2019-08-15 11:28:10,7.680s,PASSED
+"verifyTextPresent(""Jobs"", true)",Firefox 68.0,,,2019-08-15 11:28:10,2019-08-15 11:28:12,2.438s,PASSED
+delay(1),Firefox 68.0,,,2019-08-15 11:28:12,2019-08-15 11:28:13,1.022s,PASSED
+"click(findTestObject(""Search G-able career/Page_G-Able Career (Homepage) - G-Able Careers/View Jobs""))",Firefox 68.0,,,2019-08-15 11:28:13,2019-08-15 11:28:13,0.099s,PASSED
+closeWindowIndex(0),Firefox 68.0,,,2019-08-15 11:28:13,2019-08-15 11:28:14,0.286s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-08-15 11:28:14,2019-08-15 11:28:14,0.002s,NOT_RUN
