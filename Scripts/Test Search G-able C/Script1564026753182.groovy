@@ -18,6 +18,7 @@ WebUI.setText(findTestObject('Object Repository/Search G-able C/Page_Google/inpu
 
 WebUI.click(findTestObject('Object Repository/Search G-able C/Page_Google/span_g-able career', [('inputVariable') : 'g-able career']))
 
+
 //if (WebUI.verifyElementPresent(to, 10)){
 //	WebUI.click(to);
 //}

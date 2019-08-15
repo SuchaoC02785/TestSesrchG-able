@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Search,Chrome 76.0.3809.100,,,2019-08-15 10:17:52,2019-08-15 10:18:24,31.313s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Search G-able C,Chrome 76.0.3809.100,,,2019-08-15 10:17:52,2019-08-15 10:18:08,15.996s,PASSED
+"dynamicId = ""g-able career""",Chrome 76.0.3809.100,,,2019-08-15 10:17:53,2019-08-15 10:17:53,0.002s,PASSED
+"xpath = String.format(""//form[@id=""tsf""]//span[text()=""%s""]"", dynamicId)",Chrome 76.0.3809.100,,,2019-08-15 10:17:53,2019-08-15 10:17:53,0.002s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(objectName),Chrome 76.0.3809.100,,,2019-08-15 10:17:53,2019-08-15 10:17:53,0.007s,PASSED
+"to.addProperty(""xpath"", EQUALS, xpath)",Chrome 76.0.3809.100,,,2019-08-15 10:17:53,2019-08-15 10:17:53,0.007s,PASSED
+"openBrowser(""https://www.google.co.th"")",Chrome 76.0.3809.100,,,2019-08-15 10:17:53,2019-08-15 10:18:01,8.007s,PASSED
+"setText(findTestObject(""Object Repository/Search G-able C/Page_Google/input__q""), ""g-able c"")",Chrome 76.0.3809.100,,,2019-08-15 10:18:01,2019-08-15 10:18:01,0.241s,PASSED
+"if (verifyElementPresent(to, 10))",Chrome 76.0.3809.100,,,2019-08-15 10:18:01,2019-08-15 10:18:03,2.338s,PASSED
+"click(findTestObject(""Object Repository/Search G-able C/Page_g-able career -  Google/h3_Careers  G-ABLE""))",Chrome 76.0.3809.100,,,2019-08-15 10:18:03,2019-08-15 10:18:08,4.537s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,,2019-08-15 10:18:08,2019-08-15 10:18:08,0.658s,PASSED
+,,,,,,,
+Test Cases/Test Search G-able career,Chrome 76.0.3809.100,,,2019-08-15 10:18:08,2019-08-15 10:18:24,15.071s,PASSED
+"openBrowser(""https://www.google.co.th/?gws_rd=ssl"")",Chrome 76.0.3809.100,,,2019-08-15 10:18:09,2019-08-15 10:18:15,6.370s,PASSED
+"setText(findTestObject(""Object Repository/Search G-able career/Page_Google/input__q""), ""g-able career"")",Chrome 76.0.3809.100,,,2019-08-15 10:18:15,2019-08-15 10:18:15,0.177s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search G-able career/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 76.0.3809.100,,,2019-08-15 10:18:15,2019-08-15 10:18:17,1.761s,PASSED
+"click(findTestObject(""Search G-able career/Page_g-able career -  Google/Careers G-ABLE""))",Chrome 76.0.3809.100,,,2019-08-15 10:18:17,2019-08-15 10:18:22,4.927s,PASSED
+"verifyTextPresent(""Jobs"", true)",Chrome 76.0.3809.100,,,2019-08-15 10:18:22,2019-08-15 10:18:22,0.365s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-15 10:18:22,2019-08-15 10:18:23,1.019s,PASSED
+"click(findTestObject(""Search G-able career/Page_G-Able Career (Homepage) - G-Able Careers/View Jobs""))",Chrome 76.0.3809.100,,,2019-08-15 10:18:23,2019-08-15 10:18:23,0.233s,PASSED
+closeWindowIndex(0),Chrome 76.0.3809.100,,,2019-08-15 10:18:23,2019-08-15 10:18:24,0.070s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,,2019-08-15 10:18:24,2019-08-15 10:18:24,0.002s,NOT_RUN
