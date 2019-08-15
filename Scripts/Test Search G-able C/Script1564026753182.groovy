@@ -16,11 +16,11 @@ WebUI.openBrowser('https://www.google.co.th')
 
 WebUI.setText(findTestObject('Object Repository/Search G-able C/Page_Google/input__q'), 'g-able c')
 
-//WebUI.click(findTestObject('Object Repository/Search G-able C/Page_Google/span_g-able career', [('inputVariable') : 'g-able career']))
+WebUI.click(findTestObject('Object Repository/Search G-able C/Page_Google/span_g-able career', [('inputVariable') : 'g-able career']))
 
-if (WebUI.verifyElementPresent(to, 10)){
-	WebUI.click(to);
-}
+//if (WebUI.verifyElementPresent(to, 10)){
+//	WebUI.click(to);
+//}
 
 WebUI.click(findTestObject('Object Repository/Search G-able C/Page_g-able career -  Google/h3_Careers  G-ABLE'))
 

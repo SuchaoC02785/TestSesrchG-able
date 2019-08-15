@@ -24,6 +24,8 @@ WebUI.click(findTestObject('Search G-able career/Page_g-able career -  Google/Ca
 
 WebUI.verifyTextPresent('Jobs', true)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Search G-able career/Page_G-Able Career (Homepage) - G-Able Careers/View Jobs'))
 
 WebUI.closeWindowIndex(0)
